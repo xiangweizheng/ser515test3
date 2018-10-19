@@ -21,8 +21,8 @@
    - git rm --cached --ignore-unmatch index.html
 
  script:
-   - ./gradle build
-   - ./gradle test
+   - ./gradlew clean publish -i --continue
+   - ./gradlew -b finalize.gradle finalize -i
 
  after_script:
    - git add .
