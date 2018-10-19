@@ -1,42 +1,23 @@
- language: java
- 
- jdk:
-   - oraclejdk8
- 
- os:
-   - linux
- 
- branches:
-   only:
-     - master
+language: java
 
- cache:
-   directories:
-   - $HOME/.gradle
+jdk:
+  - oraclejdk8
 
- before_script:
-   - git fetch
-   - git checkout -b gh-pages
-   - git merge origin/master
-   - git rm --cached --ignore-unmatch index.html
+os:
+  - linux
 
- script:
-   - ./gradlew clean publish -i --continue
-   - ./gradlew -b finalize.gradle finalize -i
+branches:
+  only:
+    - master
 
- after_script:
-   - git add .
-   # something@example.com
-   - git config user.email "${GIT_EMAIL}"
-   # First Last
-   - git config user.name "${GIT_NAME}"
-   - git commit -m "updating outputs"
-   # https://${GH_TOKEN}@github.com/asciidoctor/asciidoctor-gradle-examples.git
-   - git push -f "${GIT_URL}" gh-pages > /dev/null 2>&1
- before_cache:
-   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
-   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
- cache:
-   directories:
-     - $HOME/.gradle/caches/
-     - $HOME/.gradle/wrapper/
+
+
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+    - $HOME/.gradle build
+    - $HOME/.gradle test
