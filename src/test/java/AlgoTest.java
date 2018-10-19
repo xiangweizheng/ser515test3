@@ -38,7 +38,7 @@ public class AlgoTest {
 		
 
 		SortAlgos.bubbleSort(T);
-		for(int i=1;i<M;i++){
+		for(int i=0;i<M;i++){
 		Item tp=new Item(i);
 		assertEquals(tp.key,T[i].key);
 		}
@@ -58,7 +58,7 @@ public class AlgoTest {
 		
 
 		SortAlgos.bubbleSort(T);
-		for(int i=1;i<M;i++){
+		for(int i=0;i<M;i++){
 		Item tp=new Item(i);
 		assertEquals(tp.key,T[i].key);
 		}
@@ -79,7 +79,7 @@ public class AlgoTest {
 			
 
 			SortAlgos.bubbleSort(T);
-			for(int i=1;i<M;i++){
+			for(int i=0;i<M;i++){
 			Item tp=new Item(i);
 			assertEquals(tp.key,T[i].key);
 			}
@@ -106,7 +106,7 @@ public class AlgoTest {
 		
 
 		SortAlgos.selectionSort(T);
-		for(int i=1;i<M;i++){
+		for(int i=0;i<M;i++){
 		Item tp=new Item(i);
 		assertEquals(tp.key,T[i].key);
 		}
@@ -126,7 +126,7 @@ public class AlgoTest {
 		
 
 		SortAlgos.insertionSort(T);
-		for(int i=1;i<M;i++){
+		for(int i=0;i<M;i++){
 		Item tp=new Item(i);
 		assertEquals(tp.key,T[i].key);
 		}
@@ -145,7 +145,7 @@ public class AlgoTest {
 		
 
 		SortAlgos.mergeSort(T);
-		for(int i=1;i<M;i++){
+		for(int i=0;i<M;i++){
 		Item tp=new Item(i);
 		assertEquals(tp.key,T[i].key);
 		}
@@ -163,7 +163,7 @@ public class AlgoTest {
 		
 
 		SortAlgos.quickSort(T);
-		for(int i=1;i<M;i++){
+		for(int i=0;i<M;i++){
 		Item tp=new Item(i);
 		assertEquals(tp.key,T[i].key);
 		}
@@ -180,7 +180,7 @@ public class AlgoTest {
 		
 
 		SortAlgos.heapSort(T);
-		for(int i=1;i<M;i++){
+		for(int i=0;i<M;i++){
 		Item tp=new Item(i);
 		assertEquals(tp.key,T[i].key);
 		}
