@@ -9,9 +9,7 @@ os:
 branches:
   only:
     - master
-script:
-   - ./gradle build
-   - ./gradle test
+
 
 
 before_cache:
@@ -21,5 +19,3 @@ cache:
   directories:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
-
-    
