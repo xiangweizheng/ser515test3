@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.AlgoTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2018-10-19T21:42:42" hostname="LAPTOP-9MIKQFL5" time="0.017">
+  <properties/>
+  <testcase name="case1heaptest" classname="test.java.AlgoTest" time="0.007"/>
+  <testcase name="case1insertiontest" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="bublesortNullPointerException" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="case1selectiontest" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="insertionSortNullPointerException" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="selectionSortNullPointerException" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="case1quicktest" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="case1bubbletest" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="case1mergetest" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="heapNullPointerException" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="case2test" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="case3test" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="quickNullPointerException" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="mergeSortNullPointerException" classname="test.java.AlgoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
