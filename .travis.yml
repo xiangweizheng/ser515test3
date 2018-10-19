@@ -19,6 +19,6 @@ cache:
   directories:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
-    - $HOME/gradle assemble
-    - $HOME/gradle check
-    - $HOME/gradle build
+    - $HOME/.gradle build
+    - $HOME/.gradle test
+    
